@@ -1,15 +1,16 @@
+<script setup lang="ts">
+import Services from '../components/Services/Services.vue'
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="Sandbox">
+    <h1>Les services</h1>
+    <div class="flex">
+      <Services sur-title="Communication" title="Réseaux sociaux" description="Création de contenu adapté à votre service ou produits" />
+      <Services sur-title="Scale-Up" title="Développement commercial" description="Création de contenu adapté à votre service ou produits" />
+      <Services sur-title="Communication" title="Réseaux sociaux" description="Création de contenu adapté à votre service ou produits" />
+  </div>
+    
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
